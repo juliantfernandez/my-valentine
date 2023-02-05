@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #fde9ec;
+    height: auto;
+    max-height: 100%;
+}
+
+nav h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    color: #ff5e5e;
+}
+main{
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    text-align: center;
+    border: 1px solid #ff5e5e;
+    background-color: #fde9ec;
+    color: #ff5e5e;
+    padding: 5px 10px 5px 10px;
+    border-radius: 90px;
+}
+
+button:hover{
+    border: 1px solid #fde9ec;
+    background-color: #ff5e5e;
+    color: #fde9ec;
+    cursor: pointer;
+}
+main h2{
+    text-align: center;
+    color: #ff5e5e;
+}
+
+main h4{
+    text-align: center;
+    font-size: 30px;
+    color: #dda0dd;
+}
+
+.appName{
+    font-family: 'Dancing Script', cursive;
+    color: #fde9ec;
+    font-size: 20px;
+    padding-left: 350px;
+    opacity: 0.5;
+    
+}
+
+.appName:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #fde9ec;
+}
+
+
+
