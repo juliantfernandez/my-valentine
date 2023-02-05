@@ -74,4 +74,8 @@ a{
 }
 
 
-
+@media(max-width: 820px){
+    .appName{
+        padding-left: 20px;
+    }
+}
